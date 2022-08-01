@@ -98,8 +98,8 @@ header {
 ----------------*/
 
         /*
-            div instrument-post
-        ------------------------*/
+            div instrument-post[main-page]
+        -----------------------------------*/
 
 main {
     margin: var(--margin-hf);
@@ -135,12 +135,28 @@ main {
 
 
         /*
-            prof-post
-        --------------*/
+            prof-post[main-page]
+        -------------------------*/
 
 
 .prof-post {
     background-color: var(--background-color-element2)
+}
+
+        /*
+            prof-post[back-page-gestion]
+        ---------------------------------*/
+
+.back-page-div {
+    border: 2px dashed #FFC72C;
+    background-color: var(--background-color-element2);
+}
+
+.back-page-div li {
+    border: dashed #FFC72C;
+    /* Up|Right|Down|Left */
+    border-width: 2px 0 2px 0;
+    margin-left: 0%;
 }
 
 
