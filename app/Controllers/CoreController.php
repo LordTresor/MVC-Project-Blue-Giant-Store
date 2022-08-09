@@ -15,7 +15,7 @@ class CoreController
     protected function show(string $viewName, $viewData = [])
     {
         
-        //TODO: find other way than using "global".
+        //TODO : find other way than using "global".
         global $router;
 
         
